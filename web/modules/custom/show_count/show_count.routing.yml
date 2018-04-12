@@ -1,0 +1,6 @@
+show_count_says:
+  path: /show_count/says/{count}
+  defaults:
+    _controller: Drupal\show_count\Controller\ShowCountController::says
+  requirements:
+    _permission: 'access content'

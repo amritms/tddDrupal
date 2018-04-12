@@ -1,0 +1,6 @@
+name: Show Count
+type: module
+description: Show count as per url argument
+package: Custom
+core: 8.x
+version: 0.1 dev
