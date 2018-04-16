@@ -1,0 +1,12 @@
+# for the configuration files of the Drupalgothci module
+
+drupalgotchi.settings:
+  type: mapping
+  label: 'Drupalgotchi settings'
+  mappings:
+    name:
+      type: string
+      label: "The name of your site's persona"
+    body:
+      type: integer
+      label: 'How needy your site is'
